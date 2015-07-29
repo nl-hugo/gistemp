@@ -1,0 +1,31 @@
+﻿/**
+ * gistemp.css
+ * Stylesheet for the GISTEMP visualization. 
+ *
+ * @author: Hugo Janssen
+ * @date:   7/29/2015
+ */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.gistemp-chart {
+    font-size: 10px;
+    fill: #aaa;
+}
+
+.gistemp-chart path.line {
+	fill:none;
+    stroke-width: 1px;
+}
+
+.gistemp-chart .axis line, 
+.gistemp-chart .axis path {
+    fill: none;
+    stroke-width: 1px;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+}
