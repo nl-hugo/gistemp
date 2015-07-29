@@ -1,20 +1,28 @@
 # NASA GISS Surface Temperature Analysis (GISTEMP)
 
-This project is an assignment as part of the [Data Visualization course](https://class.coursera.org/datavisualization-001). It aims to explore the NASA data set and get hands on 
-experience with the topics that are covered in the course.
+## Overview
+
+This project is an assignment as part of the [Data Visualization course](https://class.coursera.org/datavisualization-001). It aims to explore the NASA data set and to get 
+hands-on experience with the topics that are covered in the course.
 
 [![nl-hugo.github.io/gistemp](/media/screenshot.png)](http://nl-hugo.github.io/gistemp)
-	
+
+The graph shows the deviation from the mean Global temperature (grey line) for the Northern (blue) and Southern Hemispheres (pink) through all the given years.	
+
+Interestingly, the chart shows that temperatures in the Northern and Southern hemispheres alternate with respect to the Global mean. From 1880 until 1920 for example, the 
+Northern hemisphere was warmer on average than the Southern hemisphere (with a small inversion around 1900), whereas in the period from 1920 until 1968 the Southern hemisphere was 
+relatively the warmest (with small inversions around 1945, 1957 and 1965).
+
 
 ## Source Code Layout
 
     css\                CSS stylesheets
-    data\               raw and post-processed visualization data
+    data\               visualization data
     js\                 JavaScript files for the visualization and the website
     media\				media files
     index.html          landing page
-    README.md           README file that appears on the website's github page
 	LICENSE				The license file
+    README.md           README file that appears on the website's github page
 	
 	
 ## Raw Data
