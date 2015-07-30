@@ -3,7 +3,7 @@
  * Stylesheet for the GISTEMP visualization. 
  *
  * @author: Hugo Janssen
- * @date:   7/29/2015
+ * @date:   7/30/2015
  */
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
@@ -12,13 +12,13 @@ body {
     font-size: 13px;
 }
 
-.gistemp-chart {
+.gistemp-chart text {
     font-size: 10px;
-    fill: #aaa;
+	fill: #BBBBB1;
 }
 
 .gistemp-chart path.line {
-	fill:none;
+	fill: none;
     stroke-width: 1px;
 }
 
@@ -26,6 +26,6 @@ body {
 .gistemp-chart .axis path {
     fill: none;
     stroke-width: 1px;
-    stroke: #ccc;
+    stroke: #BBBBB1;
     shape-rendering: crispEdges;
 }
