@@ -7,11 +7,9 @@ hands-on experience with the topics that are covered in the course.
 
 [![nl-hugo.github.io/gistemp](/media/screenshot.png)](http://nl-hugo.github.io/gistemp)
 
-The graph shows the deviation from the mean Global temperature (grey line) for the Northern (blue) and Southern Hemispheres (pink) through all the given years.	
+This chart visualizes NASA's GISTEMP data. It shows temperatures in regions between the earth's circles of latitude over the period from 1880 until 2014. 
 
-Interestingly, the chart shows that temperatures in the Northern and Southern hemispheres alternate with respect to the Global mean. From 1880 until 1920 for example, the 
-Northern hemisphere was warmer on average than the Southern hemisphere (with a small inversion around 1900), whereas in the period from 1920 until 1968 the Southern hemisphere was 
-relatively the warmest (with small inversions around 1945, 1957 and 1965).
+I chose to visualize the data according to the 'small multiples' principle, whereby each region is displayed as a separate line chart. The regions are ordered from North (top) to South (bottom), thus representing their actual location on a globe. The temperatures are indexed to 1880's value(1880 = 0 degrees celcius) to make it easier to discover trends within regions. Also, with all multiples having the same scale, regions can be easily compared with each other. I used a greyish color as base color for the chart as to create a neutral canvas with sufficient contrast. Axis labels are slightly lighter, so that they do not draw away the user's attention of the actual data. Finally, the regions with the highest deviation are colored in purple, so that, besides their distinctive shape, they stand out from the others.
 
 
 ## Source Code Layout
